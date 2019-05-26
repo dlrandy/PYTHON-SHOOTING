@@ -53,7 +53,7 @@ class AlienInvasion:
             self.aliens.empty()
             self.bullets.empty()
             self.ship.center_ship()
-
+            self._create_fleet()
             sleep(1)
         else:
             self.stats.game_active = False
