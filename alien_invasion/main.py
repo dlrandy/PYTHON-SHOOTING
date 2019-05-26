@@ -45,7 +45,7 @@ class AlienInvasion:
         for alien in self.aliens.sprites():
             if alien.rect.bottom >= screen_rect.bottom:
                 self._ship_hit()
-                break;
+                break
 
     def _ship_hit(self):
         if self.stats.ships_left > 0:
