@@ -18,6 +18,23 @@ unit test
 
 测试类里的test_开头的方法会自动运行
 
+python3 -m pip install --user pygame
+python3 -m pip install --upgrade pip
+
+pygame 默认加载bmp图片文件 想要使用其他的类型，
+需要安装image的lib。当然也可以自己装换使用ps gimp paint
+
+python里下划线开头的表明是辅助方法
+
+python遍历list的时候，希望list长度是不变的只要是遍历仍在进行
+
+python里的更新操作都是要确保静态的
+
+在大型项目的新阶段，总是要回顾一个计划，搞清楚接下来要完成的任务
+在开发任何一个新特性的时候，最好先review你的代码，移除冗余不高效的code
+
+
+
 
 
 
